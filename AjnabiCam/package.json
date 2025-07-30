@@ -1,0 +1,52 @@
+{
+  "name": "ajnabicam",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^14.1.0",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-navigation/bottom-tabs": "^7.4.4",
+    "@react-navigation/native": "^7.1.16",
+    "@react-navigation/stack": "^7.4.4",
+    "@supabase/supabase-js": "^2.53.0",
+    "expo": "~53.0.20",
+    "expo-ads-admob": "^13.0.0",
+    "expo-auth-session": "^6.2.1",
+    "expo-av": "^15.1.7",
+    "expo-camera": "^16.1.11",
+    "expo-constants": "^17.1.7",
+    "expo-device": "^7.1.4",
+    "expo-font": "^13.3.2",
+    "expo-haptics": "^14.1.4",
+    "expo-image-picker": "^16.1.4",
+    "expo-linear-gradient": "^14.1.5",
+    "expo-linking": "^7.1.7",
+    "expo-notifications": "^0.31.4",
+    "expo-secure-store": "^14.2.3",
+    "expo-status-bar": "~2.2.3",
+    "expo-web-browser": "^14.2.0",
+    "lottie-react-native": "^7.2.5",
+    "react": "19.0.0",
+    "react-native": "0.79.5",
+    "react-native-agora": "^4.5.3",
+    "react-native-confetti-cannon": "^1.5.2",
+    "react-native-gesture-handler": "^2.27.2",
+    "react-native-reanimated": "^4.0.1",
+    "react-native-super-grid": "^6.0.1",
+    "react-native-vector-icons": "^10.3.0",
+    "react-native-webrtc": "^124.0.6",
+    "zustand": "^5.0.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~19.0.10",
+    "typescript": "~5.8.3"
+  },
+  "private": true
+}
